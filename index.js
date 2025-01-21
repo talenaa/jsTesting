@@ -1,5 +1,9 @@
 console.log(`hello`);
 console.log(`I like videogames`);
+console.log('Crystal');
 
-window.alert(`This is an alert`);
-window.alert(`I like pizza`);
+window.alert(`java is a nightmare`);
+window.alert(`programming is cool`);
+
+document.getElementById("intro").textContent = `hello`;
+document.getElementById("paragraph").textContent = `Im a green day fan`;
