@@ -43,6 +43,7 @@ console.log(`I am ${age} years old`);
 let titles = `4`;
 console.log(`Max is a ${titles} time world champion`)
 
+
 // Strings, a series of characters.
 
 let firstName = 'Talena';
@@ -61,3 +62,21 @@ let email = 'talenabarbosa7@gmail.com';
 console.log(`My email is ${email}`);
 
 // Its important to remember that strings can contain numbers, like shown above, but they cant be used for math. They have a different behavior for numbers
+
+
+// Booleans, are either true or false, typically used as flags in your program
+
+let online = false;
+// lets display the type of the variable
+console.log(typeof online); // The output is a boolean
+console.log(`Is talena online: ${online}`); // The output is false
+
+// Another example could be: is something for sale or not?
+
+let sale = true;
+console.log(`is that car for sale: ${sale}`);
+
+let isStudent = true;
+console.log(`is he intelligent: ${isStudent}`);
+
+// Usually booleans aare not used as a direct output like we're doing here. They're used with if statements to check on something.
