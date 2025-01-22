@@ -43,4 +43,21 @@ console.log(`I am ${age} years old`);
 let titles = `4`;
 console.log(`Max is a ${titles} time world champion`)
 
+// Strings, a series of characters.
 
+let firstName = 'Talena';
+// Typeof is a keyword that can show what type of variable your declaring
+console.log(typeof firstName);
+//In the console the output will be "string" indicating that the variable firstName is a string
+// Now lets print that variable
+console.log(firstName);
+// Now with a placeholder
+console.log(`My name is ${firstName}`);
+
+let favoriteFood = 'Lasagna';
+console.log(`My favorite food is ${favoriteFood}`);
+
+let email = 'talenabarbosa7@gmail.com';
+console.log(`My email is ${email}`);
+
+// Its important to remember that strings can contain numbers, like shown above, but they cant be used for math. They have a different behavior for numbers
