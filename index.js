@@ -80,3 +80,9 @@ let isStudent = true;
 console.log(`is he intelligent: ${isStudent}`);
 
 // Usually booleans aare not used as a direct output like we're doing here. They're used with if statements to check on something.
+
+// Lets display some variables within our webpage
+
+let fullName = 'Talena Barbosa';
+let myAge = '18';
+let student = true;
