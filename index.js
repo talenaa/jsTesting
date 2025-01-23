@@ -27,7 +27,7 @@ let x;
 x = 100;
 console.log(x);
 
-// to do both declaration and assignment at the same time, it goes something like this
+// To do both declaration and assignment at the same time, it goes something like this
 
 let y = 443;
 console.log(y);
@@ -48,8 +48,7 @@ console.log(`Max is a ${titles} time world champion`)
 
 let firstName = 'Talena';
 // Typeof is a keyword that can show what type of variable your declaring
-console.log(typeof firstName);
-//In the console the output will be "string" indicating that the variable firstName is a string
+console.log(typeof firstName); //In the console the output will be "string" indicating that the variable firstName is a string
 // Now lets print that variable
 console.log(firstName);
 // Now with a placeholder
@@ -79,7 +78,7 @@ console.log(`is that car for sale: ${sale}`);
 let isStudent = true;
 console.log(`is he intelligent: ${isStudent}`);
 
-// Usually booleans aare not used as a direct output like we're doing here. They're used with if statements to check on something.
+// Usually booleans are not used as a direct output like we're doing here. They're used with if statements to check on something.
 
 // Lets display some variables within our webpage
 
